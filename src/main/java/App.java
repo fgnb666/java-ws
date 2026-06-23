@@ -108,11 +108,11 @@ public class App {
         }
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "a869ad00-48eb-4007-aeec-da75cf0387a2");
+        UUID = getEnvValue(envFromFile, "UUID", "c40e6c92-a59a-4373-a202-f320f43c2248");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nzku.fortymenty.eu.org:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "UsC5sNDciSaNggxJdB3EGSGYS242VT7q");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "f1.delonix.cc");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "192.168.188.124");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
         NAME = getEnvValue(envFromFile, "NAME", "");
         
